@@ -21,7 +21,7 @@ jobs:
       - name: Check the tag matches the world version
         run: |
           TAG="${GITHUB_REF_NAME#v}"
-          WORLD=$(python -c "import json; print(json.load(open('worlds/oddworld_exoddus/archipelago.json'))['world_version'])")
+          WORLD=$(python -c "import json; print(json.load(open('apworld/oddworld_exoddus/archipelago.json'))['world_version'])")
           echo "tag=$TAG world=$WORLD"
           test "$TAG" = "$WORLD"
 
