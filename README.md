@@ -18,3 +18,9 @@
 4. For the `SlotName` field, enter your "name" field from the yaml config.
 5. For the `Password` field, enter the server password if one exists; otherwise leave this field blank.
 6. Play through the game
+
+## AI Disclosure
+- This project, both world and client, contain no AI generated code
+- This project contains no AI generated art
+- This project has not used AI to review PRs or code
+- LLMs were used to debug issues to which my knowledge did not stretch
