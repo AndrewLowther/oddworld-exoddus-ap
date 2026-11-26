@@ -27,7 +27,7 @@ jobs:
 
       - name: Build the .apworld
         run: |
-          cd worlds
+          cd apworld
           zip -r ../oddworld_exoddus.apworld oddworld_exoddus \
             -x "*/__pycache__/*" "*.pyc" "oddworld_exoddus/test/*"
 
